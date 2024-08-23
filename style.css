@@ -4,6 +4,10 @@
     background-color: goldenrod;
 }
 @font-face {
+    font-family: font2;
+    src: url("fonts/ofont.ru_Arco.ttf");
+}
+@font-face {
     font-family: font1;
     src: url(fonts/Teko-VariableFont_wght.ttf);
 }
@@ -20,7 +24,13 @@
 .s{
     font-size: 150px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     font-family: font1;
+}
+.names{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: font2;
+    margin-top: 60px;
 }
